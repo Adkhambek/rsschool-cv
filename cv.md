@@ -10,4 +10,16 @@
 
 ## Summary
 
-I am a fullstack web developer and enthusiast to progress within the software development.I have some experience in both Frontend and Backend development. My interests include making video tutorials, creating various web projects and many more. My main strengths are fast learning, problem solving and good communication skills.
+I am a full-stack web developer and enthusiast to progress within software development. My interests include making video tutorials, creating various web projects and many more. My main strengths are fast learning, problem solving and good communication skills.
+
+## Skills
+
+    - HTML
+    - CSS (Bootstrap, SASS, BEM methodology)
+    - JavaScript (Fundamentals, OOP, Asynchronous JavaScript, ES6+, TypeScript, DOM)
+    - React JS (basic knowledge)
+    - PHP (Laravel)
+    - Node.js (Express, NestJS)
+    - SQL: MySQL, PostgreSQL
+    - NoSQL: Redis, MongoDB
+    - Version control: git (remote service GitHub)
