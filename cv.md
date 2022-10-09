@@ -45,3 +45,10 @@ console.log(uniqueOccurrences([1, 2, 2, 1, 1, 3])); //t
 console.log(uniqueOccurrences([1, 2])); // f
 console.log(uniqueOccurrences([-3, 0, 1, -3, 1, 1, 1, -3, 10, 0])); // t
 ```
+
+## Education
+
+-   **Bachelor, INHA University in Tashkent**
+    -   Faculty of Logistics
+-   **Najot Ta'lim Education Center**
+    -   Full-stack web development course
