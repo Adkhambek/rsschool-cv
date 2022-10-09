@@ -60,3 +60,9 @@ console.log(uniqueOccurrences([-3, 0, 1, -3, 1, 1, 1, -3, 10, 0])); // t
 -   Created small pet [projects](https://github.com/Adkhambek?tab=repositories)
 -   Internship in [Wasaf Int Solutions](https://www.linkedin.com/company/wasafuz)
 -   Internship in [Abutech](https://www.linkedin.com/company/abutech)
+
+## Languages
+
+-   Uzbek (native)
+-   Russian (intermediate)
+-   English (IELTS 6)
