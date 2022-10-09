@@ -52,3 +52,11 @@ console.log(uniqueOccurrences([-3, 0, 1, -3, 1, 1, 1, -3, 10, 0])); // t
     -   Faculty of Logistics
 -   **Najot Ta'lim Education Center**
     -   Full-stack web development course
+
+## Experience
+
+-   Worked as a freelancer
+-   Made video tutorials (related to programming) for my [YouTube Channel](https://www.youtube.com/channel/UCX_HJo3h89sbrrcyQektvBg)
+-   Created small pet [projects](https://github.com/Adkhambek?tab=repositories)
+-   Internship in [Wasaf Int Solutions](https://www.linkedin.com/company/wasafuz)
+-   Internship in [Abutech](https://www.linkedin.com/company/abutech)
