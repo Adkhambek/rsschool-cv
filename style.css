@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Medium.woff2") format("woff2"),
+        url("./fonts/OpenSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Regular.woff2") format("woff2"),
+        url("./fonts/OpenSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans-Bold.woff2") format("woff2"),
+        url("./fonts/OpenSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #2e455a;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2e455a;
+}
+
+u {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 114rem;
+    margin: 0 auto;
+}
