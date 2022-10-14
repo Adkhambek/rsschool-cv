@@ -61,6 +61,11 @@ h2 {
     color: #2e455a;
 }
 
+h3 {
+    font-size: 2rem;
+    color: #2e455a;
+}
+
 ul {
     list-style: none;
 }
@@ -103,6 +108,7 @@ main .container {
 aside {
     background-color: #ffffff;
     width: 32%;
+    height: 100%;
     padding: 2.5rem;
     text-align: center;
 }
@@ -206,4 +212,62 @@ aside .line {
 
 .skill-list li {
     margin: 2rem;
+}
+
+.project-list {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    border: 1px solid #f3f4f6;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 48%;
+    margin-bottom: 3rem;
+}
+
+.project-description {
+    margin: 1rem 0;
+}
+
+.project-description a {
+    color: #3867d6;
+}
+
+.project-item footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-item .footer-left {
+    display: flex;
+}
+
+.star,
+.fork {
+    display: flex;
+    align-items: center;
+}
+
+.star span,
+.fork span {
+    margin-right: 0.5rem;
+}
+
+.star span {
+    color: #eab308;
+}
+
+.star {
+    margin-right: 2rem;
+}
+
+.github-link {
+    display: inline-block;
+    background-color: #f3f4f6;
+    padding: 0.5rem 1rem;
 }
