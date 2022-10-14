@@ -271,3 +271,12 @@ aside .line {
     background-color: #f3f4f6;
     padding: 0.5rem 1rem;
 }
+
+.edu-list {
+    margin-left: 5rem;
+    list-style: square;
+}
+
+.edu-item {
+    color: #2e455a;
+}
