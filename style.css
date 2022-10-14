@@ -102,7 +102,7 @@ main .container {
 
 aside {
     background-color: #ffffff;
-    width: 30%;
+    width: 32%;
     padding: 2.5rem;
     text-align: center;
 }
@@ -121,7 +121,7 @@ aside .title {
 .profession {
     display: inline-block;
     padding: 1rem 2rem;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     border-radius: 10rem;
     background-color: #f5f6f7;
 }
@@ -137,7 +137,36 @@ aside .title {
     margin-right: 1rem;
 }
 
+aside .line {
+    border-top: 1px solid #2e455a;
+    margin: 3rem 0;
+}
+
+.contact {
+    margin-top: 3rem;
+    font-style: normal;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.contact-item span {
+    font-size: 2rem;
+    color: #2e455a;
+    margin-right: 1.5rem;
+}
+
+.contact-item a,
+.contact-item p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #2e455a;
+}
+
 .main-content {
     background-color: #ffffff;
-    width: 68%;
+    width: 65%;
 }
