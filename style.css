@@ -280,3 +280,17 @@ aside .line {
 .edu-item {
     color: #2e455a;
 }
+
+.language-list {
+    margin-left: 5rem;
+    list-style: square;
+}
+
+.language-item {
+    color: #2e455a;
+}
+
+.language-level {
+    color: #333333;
+    font-weight: normal;
+}
