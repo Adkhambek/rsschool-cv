@@ -16,6 +16,7 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
         />
+        <link rel="stylesheet" href="./lib/prism/prism.css" />
         <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
@@ -32,7 +33,7 @@
                         <a href="#" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Code Examples</a>
+                        <a href="#" class="nav-link">Code Example</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Education</a>
@@ -410,8 +411,26 @@
                             </li>
                         </ul>
                     </section>
+                    <section class="code box-outer">
+                        <h2 class="section-title">Code Example</h2>
+                        <pre>
+                            <code class="language-javascript">
+                                const uniqueOccurrences = function (arr) {
+                                    const obj = {};
+                                    for (const num of arr) {
+                                        if (obj[num]) obj[num]++;
+                                        else obj[num] = 1;
+                                    }
+                                    return (
+                                        [...new Set(Object.values(obj))].length === Object.values(obj).length
+                                    );
+                                };
+                            </code>
+                        </pre>
+                    </section>
                 </div>
             </div>
         </main>
+        <script src="./lib/prism/prism.js"></script>
     </body>
 </html>
