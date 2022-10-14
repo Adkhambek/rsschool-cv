@@ -40,6 +40,7 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: #f5f6f7;
     color: #333333;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -51,7 +52,7 @@ a {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     color: #2e455a;
 }
 
@@ -62,10 +63,6 @@ h2 {
 
 ul {
     list-style: none;
-}
-
-img {
-    width: 100%;
 }
 
 .container {
@@ -84,6 +81,7 @@ nav {
 
 nav .container {
     padding: 3rem 4rem;
+    background-color: #ffffff;
 }
 
 .nav-list {
@@ -95,4 +93,51 @@ nav .container {
 .nav-link {
     font-size: 2rem;
     font-weight: bold;
+}
+
+main .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    background-color: #ffffff;
+    width: 30%;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.avatar-box img {
+    display: block;
+    margin: 2rem auto;
+    width: 25rem;
+    border-radius: 2rem;
+}
+
+aside .title {
+    margin: 3rem 0 0;
+}
+
+.profession {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border-radius: 10rem;
+    background-color: #f5f6f7;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    color: #2e455a;
+    font-size: 2rem;
+}
+
+.social-list:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.main-content {
+    background-color: #ffffff;
+    width: 68%;
 }
