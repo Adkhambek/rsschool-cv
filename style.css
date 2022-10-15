@@ -109,6 +109,11 @@ nav .container {
 .nav-link {
     font-size: 2rem;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3867d6;
 }
 
 main .container {
@@ -148,6 +153,14 @@ aside .title {
     font-size: 2rem;
 }
 
+.social-link {
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #3867d6;
+}
+
 .social-list:not(:last-child) {
     margin-right: 1rem;
 }
@@ -179,6 +192,11 @@ aside .line {
     font-size: 1.8rem;
     font-weight: 500;
     color: #2e455a;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #3867d6;
 }
 
 .main-content {
@@ -281,6 +299,12 @@ aside .line {
     display: inline-block;
     background-color: #f3f4f6;
     padding: 0.5rem 1rem;
+    transition: 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .edu-list {

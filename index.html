@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Adham Muzaffarov</title>
-        <link rel="icon" href="./images/favicon.png" />
+        <link rel="icon" href="./images/favicon.png">
         <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
             integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
             crossorigin="anonymous"
-        />
+        >
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
-        />
-        <link rel="stylesheet" href="./lib/prism/prism.css" />
-        <link rel="stylesheet" href="./style.css" />
+        >
+        <link rel="stylesheet" href="./lib/prism/prism.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <header>
-            <h1 class="visually-hidden">CV. HTML, CSS & Git Basics</h1>
+            <div class="container">
+                <h1 class="visually-hidden">CV. HTML, CSS & Git Basics</h1>
+            </div>
         </header>
         <nav>
             <div class="container box-outer">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Skills</a>
+                        <a href="#skills" class="nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Projects</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Code Example</a>
+                        <a href="#code" class="nav-link">Code Example</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Education</a>
+                        <a href="#education" class="nav-link">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Languages</a>
+                        <a href="#languages" class="nav-link">Languages</a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +53,7 @@
             <div class="container">
                 <aside class="box-outer">
                     <div class="avatar-box">
-                        <img src="./images/avatar.jpg" alt="Adham Muzaffarov" />
+                        <img src="./images/avatar.jpg" alt="Adham Muzaffarov">
                     </div>
                     <h2 class="title">Adham Muzaffarov</h2>
                     <p class="profession">Web Developer</p>
@@ -84,7 +86,7 @@
                             </a>
                         </li>
                     </ul>
-                    <hr class="line" />
+                    <hr class="line">
                     <address class="contact">
                         <ul class="contact-list">
                             <li class="contact-item">
@@ -111,7 +113,7 @@
                     </address>
                 </aside>
                 <div class="main-content">
-                    <section class="about-me box-outer">
+                    <section class="about-me box-outer" id="about">
                         <h2 class="section-title">About Me</h2>
                         <p>
                             I am a full-stack web developer and enthusiast to
@@ -132,61 +134,111 @@
                                 href="https://github.com/Adkhambek"
                                 >Github</a
                             >. Some projects I'm proud of are listed
-                            <a href="#">Here</a>
+                            <a href="#projects">Here</a>
                         </p>
                     </section>
-                    <section class="skills box-outer">
+                    <section class="skills box-outer" id="skills">
                         <h2 class="section-title">Skills</h2>
                         <p class="section-subtitle">
                             Programming languages & Tools
                         </p>
                         <ul class="skill-list">
-                            <li
-                                class="devicon-html5-plain-wordmark colored"
-                            ></li>
-                            <li
-                                class="devicon-css3-plain-wordmark colored"
-                            ></li>
-                            <li
-                                class="devicon-bootstrap-plain-wordmark colored"
-                            ></li>
-                            <li class="devicon-sass-original colored"></li>
-                            <li class="devicon-javascript-plain colored"></li>
-                            <li class="devicon-typescript-plain colored"></li>
-                            <li
-                                class="devicon-react-original-wordmark colored"
-                            ></li>
-                            <li class="devicon-php-plain colored"></li>
-                            <li
-                                class="devicon-laravel-plain-wordmark colored"
-                            ></li>
-                            <li
-                                class="devicon-express-original-wordmark colored"
-                            ></li>
-                            <li class="devicon-nestjs-plain colored"></li>
-                            <li class="devicon-postgresql-plain colored"></li>
-                            <li
-                                class="devicon-mysql-plain-wordmark colored"
-                            ></li>
-                            <li
-                                class="devicon-redis-plain-wordmark colored"
-                            ></li>
-                            <li
-                                class="devicon-mongodb-plain-wordmark colored"
-                            ></li>
-                            <li
-                                class="devicon-npm-original-wordmark colored"
-                            ></li>
-                            <li class="devicon-git-plain-wordmark colored"></li>
-                            <li
-                                class="devicon-github-original-wordmark colored"
-                            ></li>
-                            <li
-                                class="devicon-npm-original-wordmark colored"
-                            ></li>
+                            <li>
+                                <span
+                                    class="devicon-html5-plain-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-css3-plain-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-bootstrap-plain-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-sass-original colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-javascript-plain colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-typescript-plain colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-react-original-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span class="devicon-php-plain colored"></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-laravel-plain-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-express-original-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-nestjs-plain colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-postgresql-plain colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-mysql-plain-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-redis-plain-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-mongodb-plain-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-npm-original-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-git-plain-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-github-original-wordmark colored"
+                                ></span>
+                            </li>
+                            <li>
+                                <span
+                                    class="devicon-npm-original-wordmark colored"
+                                ></span>
+                            </li>
                         </ul>
                     </section>
-                    <section class="projects box-outer">
+                    <section class="projects box-outer" id="projects">
                         <h2 class="section-title">Projects</h2>
                         <ul class="project-list">
                             <li class="project-item">
@@ -414,24 +466,24 @@
                             </li>
                         </ul>
                     </section>
-                    <section class="code box-outer">
+                    <section class="code box-outer" id="code">
                         <h2 class="section-title">Code Example</h2>
                         <pre>
-                            <code class="language-javascript">
-                                const uniqueOccurrences = function (arr) {
-                                    const obj = {};
-                                    for (const num of arr) {
-                                        if (obj[num]) obj[num]++;
-                                        else obj[num] = 1;
-                                    }
-                                    return (
-                                        [...new Set(Object.values(obj))].length === Object.values(obj).length
-                                    );
-                                };
-                            </code>
-                        </pre>
+                        <code class="language-javascript">
+                            const uniqueOccurrences = function (arr) {
+                                const obj = {};
+                                for (const num of arr) {
+                                    if (obj[num]) obj[num]++;
+                                    else obj[num] = 1;
+                                }
+                                return (
+                                    [...new Set(Object.values(obj))].length === Object.values(obj).length
+                                );
+                            };
+                        </code>
+                    </pre>
                     </section>
-                    <section class="education box-outer">
+                    <section class="education box-outer" id="education">
                         <h2 class="section-title">Education</h2>
                         <ul class="edu-list">
                             <li class="edu-item">
@@ -444,7 +496,7 @@
                             </li>
                         </ul>
                     </section>
-                    <section class="langaues box-outer">
+                    <section class="langaues box-outer" id="languages">
                         <h2 class="section-title">Languages</h2>
                         <ul class="language-list">
                             <li class="language-item">
@@ -478,7 +530,7 @@
             <div class="container box-outer">
                 <ul class="footer-list">
                     <li class="footer-github">
-                        <a href="https://github.com/Adkhambek">
+                        <a target="_blank" href="https://github.com/Adkhambek">
                             <span
                                 class="devicon-github-original-wordmark colored"
                             ></span>
@@ -488,11 +540,11 @@
                         <p>October 2022</p>
                     </li>
                     <li class="footer-rsschool">
-                        <a href="https://rs.school/js-en/">
+                        <a target="_blank" href="https://rs.school/js-en/">
                             <img
                                 src="./images/logo-rsschool.png"
                                 alt="Logo RS School"
-                            />
+                            >
                         </a>
                     </li>
                 </ul>
