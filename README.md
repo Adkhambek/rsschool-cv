@@ -1,3 +1,3 @@
-# Markdown CV
+# CV. HTML, CSS & Git Basics
 
-https://Adkhambek.github.io/rsschool-cv/cv
+https://Adkhambek.github.io/rsschool-cv/
